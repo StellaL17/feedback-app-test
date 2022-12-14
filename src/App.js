@@ -18,11 +18,11 @@ function App() {
             <FeedbackForm />
             <FeedbackStats />
             <FeedbackList />
+            <AboutIconLink />
             </Route>
 
             <Route path={'/about'} component={ AboutPage }></Route>
 
-            <AboutIconLink />
         </div>
         </Router>
         </FeedbackProvider>
